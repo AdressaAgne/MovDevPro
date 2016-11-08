@@ -30,3 +30,8 @@ body {
                                       /* offset horizontal: half of image width and text area width */
     }
 }
+
+object{
+    margin: 0px;
+    width: 100%;
+}
