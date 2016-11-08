@@ -39,16 +39,21 @@
     <body>
         <div class="app">
             
-<!--            <object name="foo" type="text/html" data="layout/navFragment.html"></object>-->
+            <div class="navbar">
+                <div class="logo">Farlig Godt</div>
+            </div>
             
             
             <div class="content">
                 
-                
+                <div id="map"></div>
                 
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7i0o5mdEYSbG_wqoWAx53tAP1xxTKVQo&callback=initMap"></script>
+        <script type="text/javascript" src="js/jQuery.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/maps.js"></script>
     </body>
 </html>
