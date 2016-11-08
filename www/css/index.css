@@ -1,3 +1,5 @@
+@import url(partials/nav.css);
+
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -32,7 +34,7 @@ object{
     width: 100%;
 }
 
-.navbar{
+/*.navbar{
 
     height: 80px;
     background-color: #009688;
@@ -50,4 +52,4 @@ object{
     height: 80px;
     padding-left: 100px;
     font-size: 20px
-}
+} */
