@@ -1,3 +1,7 @@
+/* Navbar */
+@import url(partials/nav.css);
+
+
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
@@ -25,25 +29,4 @@ body {
         margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
-}
-
-.navbar{
-    
-    height: 80px;
-    background-color: #009688;
-    line-height: 80px;
-    color: #f8f8f8;
-    
-}
-
-.navbar .logo{
-    
-    background-image: url('../img/logo.svg');
-    background-size: 60px 60px;
-    background-repeat: no-repeat;
-    background-position: 20px center;
-    height: 80px;
-    padding-left: 100px;
-    font-size: 20px
-    
 }

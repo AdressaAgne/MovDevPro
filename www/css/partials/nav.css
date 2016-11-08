@@ -1,0 +1,20 @@
+.navbar{
+
+    height: 80px;
+    background-color: #009688;
+    line-height: 80px;
+    color: #f8f8f8;
+
+}
+
+.navbar .logo{
+
+    background-image: url('../img/logo.svg');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    height: 80px;
+    padding-left: 100px;
+    font-size: 20px
+
+}
