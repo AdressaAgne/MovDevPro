@@ -26,6 +26,7 @@
     <engine name="ios" spec="~4.3.0" />
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#00897B" />
+    <preference name="DisallowOverscroll" value="true" />
     <feature name="StatusBar">
         <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
