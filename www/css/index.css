@@ -80,6 +80,199 @@ object{
     color: rgba(255, 255, 255, 0.4);
     font-style: italic; }
 
+/*Icons*/
+
+
+i[class*='icon-'] {
+  display: inline-block;
+  height: 64px;
+  width: 64px;
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center; }
+  i[class*='icon-'].icon--text {
+    margin-bottom: -12px;
+    margin-top: -12px; }
+  i[class*='icon-'].icon--header {
+    margin-bottom: -20px; }
+  i[class*='icon-'].icon--small {
+    height: 32px;
+    width: 32px;
+    background-size: 32px; }
+  i[class*='icon-'].icon--large {
+    height: 128px;
+    width: 128px;
+    background-size: 128px; }
+  i[class*='icon-'].icon--gigantic {
+    height: 256px;
+    width: 256px;
+    background-size: 256px; }
+  i[class*='icon-'].icon--margin {
+    margin: 20px; }
+  i[class*='icon-'].icon--center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+
+i.icon-carrot {
+  background-image: url("../drawable/carrot.svg"); }
+
+i.icon-carrot--white {
+  background-image: url("../drawable/carrot_white.svg"); }
+
+i.icon-chees {
+  background-image: url("../drawable/chees.svg"); }
+
+i.icon-chees--white {
+  background-image: url("../drawable/chees_white.svg"); }
+
+i.icon-chicken {
+  background-image: url("../drawable/chicken.svg"); }
+
+i.icon-chicken--white {
+  background-image: url("../drawable/chicken_white.svg"); }
+
+i.icon-coldrun {
+  background-image: url("../drawable/coldrun.svg"); }
+
+i.icon-coldrun--white {
+  background-image: url("../drawable/coldrun_white.svg"); }
+
+i.icon-egg {
+  background-image: url("../drawable/egg.svg"); }
+
+i.icon-egg--white {
+  background-image: url("../drawable/egg_white.svg"); }
+
+i.icon-empty_star {
+  background-image: url("../drawable/empty_star.svg"); }
+
+i.icon-empty_star--white {
+  background-image: url("../drawable/empty_star_white.svg"); }
+
+i.icon-fish {
+  background-image: url("../drawable/fish.svg"); }
+
+i.icon-fish--white {
+  background-image: url("../drawable/fish_white.svg"); }
+
+i.icon-full_star {
+  background-image: url("../drawable/full_star.svg"); }
+
+i.icon-full_star--white {
+  background-image: url("../drawable/full_star_white.svg"); }
+
+i.icon-knife {
+  background-image: url("../drawable/knife.svg"); }
+
+i.icon-knife--white {
+  background-image: url("../drawable/knife_white.svg"); }
+
+i.icon-meat {
+  background-image: url("../drawable/meat.svg"); }
+
+i.icon-meat--white {
+  background-image: url("../drawable/meat_white.svg"); }
+
+i.icon-milk {
+  background-image: url("../drawable/milk.svg"); }
+
+i.icon-milk--white {
+  background-image: url("../drawable/milk_white.svg"); }
+
+i.icon-no_gluten {
+  background-image: url("../drawable/no_gluten.svg"); }
+
+i.icon-no_gluten--white {
+  background-image: url("../drawable/no_gluten_white.svg"); }
+
+i.icon-onion {
+  background-image: url("../drawable/onion.svg"); }
+
+i.icon-onion--white {
+  background-image: url("../drawable/onion_white.svg"); }
+
+i.icon-pan {
+  background-image: url("../drawable/pan.svg"); }
+
+i.icon-pan--white {
+  background-image: url("../drawable/pan_white.svg"); }
+
+i.icon-red_wine {
+  background-image: url("../drawable/red_wine.svg"); }
+
+i.icon-red_wine--white {
+  background-image: url("../drawable/red_wine_white.svg"); }
+
+i.icon-soup {
+  background-image: url("../drawable/soup.svg"); }
+
+i.icon-soup--white {
+  background-image: url("../drawable/soup_white.svg"); }
+
+i.icon-spatchela {
+  background-image: url("../drawable/spatchela.svg"); }
+
+i.icon-spatchela--white {
+  background-image: url("../drawable/spatchela_white.svg"); }
+
+i.icon-spice {
+  background-image: url("../drawable/spice.svg"); }
+
+i.icon-spice--white {
+  background-image: url("../drawable/spice_white.svg"); }
+
+i.icon-time {
+  background-image: url("../drawable/time.svg"); }
+
+i.icon-time--white {
+  background-image: url("../drawable/time_white.svg"); }
+
+i.icon-tomato {
+  background-image: url("../drawable/tomato.svg"); }
+
+i.icon-tomato--white {
+  background-image: url("../drawable/tomato_white.svg"); }
+
+i.icon-vegetables {
+  background-image: url("../drawable/vegetables.svg"); }
+
+i.icon-vegetables--white {
+  background-image: url("../drawable/vegetables_white.svg"); }
+
+i.icon-wheat {
+  background-image: url("../drawable/wheat.svg"); }
+
+i.icon-wheat--white {
+  background-image: url("../drawable/wheat_white.svg"); }
+
+i.icon-whip {
+  background-image: url("../drawable/whip.svg"); }
+
+i.icon-whip--white {
+  background-image: url("../drawable/whip_white.svg"); }
+
+i.icon-white_wine {
+  background-image: url("../drawable/white_wine.svg"); }
+
+i.icon-white_wine--white {
+  background-image: url("../drawable/white_wine_white.svg"); }
+
+i.icon-search {
+  background-image: url("../drawable/search.svg"); }
+
+i.icon-search--white {
+  background-image: url("../drawable/search_white.svg"); }
+
+i.icon-logo {
+  background-image: url("../drawable/logo.svg"); }
+
+i.icon-logo--white {
+  background-image: url("../drawable/logo_white.svg"); }
+
+i.icon-logo--transparent {
+  background-image: url("../drawable/logo_transparent.svg"); }
+
 /*.navbar{
 
     height: 80px;
