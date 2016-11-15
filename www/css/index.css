@@ -34,25 +34,51 @@ object{
     width: 100%;
 }
 
-.searchbar{
-  width: 100vw;
-  height: 30px;
-  display: flex;
-  flex-direction: row;
-}
-
-.searchbar input[type=text] {
-    width: 80%;
-    height: 100%;
-
-}
-
-.searchbar button{
-    width: 20%;
-    height: 100%;
-    background-color: white;
+.search {
+  position: relative;
+  padding-bottom: 0; }
+  .search input[type='search'], .search input[type='text'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: calc(100% - 60px);
+    font-size: 16px;
+    font-weight: 300;
+    height: 30px;
+    color: white;
+    background-color: #ffffff;
     border: none;
-}
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    border-radius: 0; }
+  .search .search-icon a {
+    float: left;
+    width: 60px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    padding: 4px; }
+    .search .search-icon a:hover {
+      background-color: #008276; }
+  .search .search-icon:last-of-type a {
+    border-radius: 0; }
+  .search ::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic; }
+  .search :-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic; }
+  .search ::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic; }
+  .search :-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic; }
 
 /*.navbar{
 

@@ -43,10 +43,20 @@
                 <div class="logo">Farlig Godt</div>
             </div>
 
-            <div class="searchbar">
-              <input type="text" class="inputSearch" name="search" placeholder="Søk etter arter i nærheten">
-              <button onclick="myFunction()">Søk</button>
-            </div>
+            <div class="search col-l-4 col-6 col-m-8 col--center">
+                    <label class="search-box" for="search">
+                        <input type="search" placeholder="Finn arter nær deg" value="">
+                    </label>
+                    <label class="search-icon">
+                        <a href="#"><i class="icon-search--white icon--small icon--center"></i></a>
+                    </label>
+
+                    <div class="search-result">
+                        <ul id="search-result">
+
+                        </ul>
+                    </div>
+                </div>
             <div class="content">
 
                 <div id="map"></div>
